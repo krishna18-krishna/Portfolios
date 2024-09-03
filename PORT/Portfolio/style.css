@@ -1,0 +1,484 @@
+*{
+    overflow-x: hidden;
+}
+@media screen and(max-width: 320px) {
+    img{
+        float: left;
+    }
+    
+}
+@media screen and(max-width: 320px) {
+    div{
+        position: absolute;
+        top: 200px;
+
+    }
+    
+}
+
+
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+
+
+.back{
+
+    position: fixed;
+    height: 70px;
+    width: 1500px;
+    top: -16px;
+    left: 0px;
+    background-color: rgb(36, 30, 30);
+    z-index: 1;
+}
+.back1{
+    position: fixed;
+    height: 70px;
+    width: 1500px;
+    top: 760px;
+    left: 0px;
+    background-color: rgb(36, 30, 30);
+    z-index: 1;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav {
+    color: rgb(248, 244, 244);
+    position:fixed;
+    top: 20px;
+    right: 50px;
+   word-spacing:80px;
+   /* background-color: black; */
+   padding: 20px;
+   border-radius: 50px;
+   z-index: 2;
+
+
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+img{
+    border-radius:500px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    
+}
+
+nav a:hover{
+    /* background-color: #ffff; */
+   /*  padding: 10px; */
+   /*  border-radius: 50px; */
+    text-decoration: underline;
+    /* color: black; */
+}
+
+
+.skill{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+}
+h1{
+    position: absolute;
+    top:200px;
+    left: 200px;
+}
+h2{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+h3{
+    position: absolute;
+    top: 240px;
+    left: 220px;
+}
+h4{
+    position: absolute;
+    top: 320px;
+    left: 270px;
+}
+h5{
+    position: absolute;
+    top: 530px;
+    left: 500px;
+}
+
+.line1{
+    width:500px;
+    height: 2px;
+    background-color:  white ;
+    position: relative;
+    top: 52PX;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+}
+.line2{
+    width:500px;
+    height: 2px;
+    background-color:  white ;
+    position: absolute;
+    top: 760PX;
+    right: 5px;
+    position: fixed;
+    z-index: 2;
+}
+.about{
+    position: absolute;
+    top: 750px;
+    left: 750px;
+}
+.png{
+    position: absolute;
+    top: 950px;
+    left: 120px;
+}
+.me{
+    position: absolute;
+    top: 1100px;
+    left: 640px; 
+}
+.education{
+    position: absolute;
+    top: 1800px;
+    left: 40px;
+}
+
+.space{
+    position: absolute;
+    top: 790PX;
+    left: 5PX;
+}
+.educ{
+    position: absolute;
+    top: 1850px;
+    right: 100px;
+}
+.spaces{
+    position: absolute;
+    top: 1650px;
+    left: 5PX; 
+}
+.school{
+    position: absolute;
+    top: 2000px;
+    left: 40px;
+}
+.sname{
+    position: absolute;
+    top: 2040px;
+    left: 40px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.acadamy{
+    position: absolute;
+    top: 2150px;
+    left: 40px;
+}
+.place{
+    position: absolute;
+    top: 2190px;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.space1{
+    position: absolute;
+    top:2525PX;
+    left: 5PX;
+}
+
+.ill{
+   font-size: 100px;
+   position: absolute;
+   top: 2600px;
+   left: 540px;
+}
+.skill1{
+    font-size: 30px ;color: rgb(9, 165, 165);
+    position: absolute;
+    top:2900px;
+    left: 150px;
+}
+.skill2{
+    font-size: 30px ;color: rgb(9, 165, 165);
+    position: absolute;
+    top: 3000px;
+    left: 160px;
+}
+.skill3{
+    font-size: 30px ;color: rgb(9, 165, 165);
+    position: absolute;
+    top: 3100px;
+    left: 100px;
+}
+.skill4{
+    font-size: 30px ;color: rgb(9, 165, 165);
+    position: absolute;
+    top: 2900px;
+    right: 600px;
+}
+.skill5{
+    font-size: 30px ;color: rgb(9, 165, 165);
+    position: absolute;
+    top: 3000px;
+    right: 550px;
+}
+.skill6{
+    font-size: 30px ;color: rgb(9, 165, 165);
+    position: absolute;
+    top: 3100px;
+    right: 480px;
+}
+
+
+.barback{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.bar{
+    width: 225px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 44px;   
+    border-radius: 50px; 
+
+}
+.progressbar{
+    position: absolute;
+    top: 2865px;
+    left: 320px;
+}
+.barback1{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.bar1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+
+}
+.progressbar1{
+    position: absolute;
+    top: 2965px;
+    left: 320px;
+}
+
+.barback2{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+/* .bar2{
+    width: 0px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    top: 44px;
+    border-radius: 50px;
+
+} */
+.progressbar2{
+    position: absolute;
+    top: 3065px;
+    left: 320px;
+}
+
+.barback3{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.bar3{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.progressbar3{
+    position: absolute;
+    top: 2865px;
+    right: 410px;
+}
+
+.barback4{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.bar4{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.progressbar4{
+    position: absolute;
+    top: 2965px;
+    right: 410px;
+}
+
+
+.barback5{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.bar5{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 44px;
+    border-radius: 50px;
+}
+.progressbar5{
+    position: absolute;
+    top: 3065px;
+    right: 410px;
+}
+
+ 
+.spaces2{
+    position: absolute;
+    top: 4000px;
+    left: 5px;
+}
+
+.cont{
+    font-size: 50px;
+    position: absolute;
+    top: 3550px;
+    left: 190px;
+}
+
+.mail{
+    position: absolute;
+    top: 3725px;
+    left: 310px;
+    height: 55px;
+    width: 65px;
+}
+.email{
+    font-size: 35px;
+    position: absolute;
+    top: 3697px;
+    left: 440px;
+}
+
+.linke{
+    position: absolute;
+    top: 3845px;
+    left: 310px;
+    height: 55px;
+    width: 55px;
+}
+.linkedin{
+    font-size: 35px;
+    position: absolute;
+    top: 3820px;
+    left: 440px;
+}
+
+.web{
+    position: absolute;
+    top: 3960px;
+    left: 310px;
+    height: 55px;
+    width: 65px;
+}
+.webs{
+    font-size: 35px;
+    position: absolute;
+    top: 3940px;
+    left: 440px;
+}
+
+.loc{
+    position: absolute;
+    top: 4090px;
+    left: 320px;
+    height: 55px;
+    width: 75px;
+}
+.loca{
+    font-size: 35px;
+    position: absolute;
+    top: 4060px;
+    left: 440px;
+}
+
+
+
+.spaces3{
+    position: absolute;
+    top: 4160px;
+    left: 5px;
+    height: 100px;
+    width: 100px;    
+}
+
+
+h2{
+    position: relative;
+    top: -23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
